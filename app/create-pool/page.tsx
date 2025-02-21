@@ -173,7 +173,7 @@ const PoolCreationDashboard = () => {
     ];
 
     return (
-        <div className="p-4 bg-gray-50">
+        <div className="p-2 sm:p-16 bg-gray-50 min-h-screen">
             <div className="max-w-7xl mx-auto bg-white rounded-lg shadow-md p-6">
                 <div className="mb-6">
                     <h1 className="text-3xl font-bold text-gray-800">Pool Creation Parameter Analysis</h1>
