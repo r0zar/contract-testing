@@ -1,0 +1,969 @@
+{
+    "timestamp": "2025-02-21T17-23-26-190Z",
+    "testParameters": {
+        "initialPoolBalance": 1000000000000,
+        "stxPriceUSD": 1,
+        "ststxPriceUSD": 1.1,
+        "arbAttemptSizes": [
+            {
+                "name": "Small",
+                "value": 1000000000
+            },
+            {
+                "name": "Medium",
+                "value": 10000000000
+            },
+            {
+                "name": "Large",
+                "value": 50000000000
+            }
+        ],
+        "midpointRanges": [
+            {
+                "name": "Standard",
+                "value": 110000000
+            }
+        ],
+        "midpointFactorRanges": [
+            {
+                "name": "Standard",
+                "value": 100000000
+            }
+        ],
+        "ampRanges": [
+            {
+                "name": "Very Low",
+                "value": 1
+            },
+            {
+                "name": "Low",
+                "value": 10
+            },
+            {
+                "name": "Medium",
+                "value": 50
+            },
+            {
+                "name": "Standard",
+                "value": 100
+            },
+            {
+                "name": "High",
+                "value": 500
+            },
+            {
+                "name": "Very High",
+                "value": 1000
+            }
+        ]
+    },
+    "statistics": {
+        "totalTests": 12,
+        "successfulTests": 12,
+        "averageScore": 81.08761450928306,
+        "medianScore": 0,
+        "bestScore": 163.19604973938948,
+        "worstScore": 0,
+        "averagePriceImpact": 1.0100377406705876,
+        "averageMaxProfit": 2.3923959591666706
+    },
+    "top10Configurations": [
+        {
+            "midpoint": 110000000,
+            "midpointFactor": 100000000,
+            "ampCoeff": 1000,
+            "reversed": true,
+            "arbAttempts": [
+                {
+                    "size": "Small",
+                    "profitPercent": 4.7874849799999994,
+                    "priceImpact": 0.09980000000000544,
+                    "success": true
+                },
+                {
+                    "size": "Medium",
+                    "profitPercent": 4.762540975000011,
+                    "priceImpact": 0.9975034854917141,
+                    "success": true
+                },
+                {
+                    "size": "Large",
+                    "profitPercent": 4.641297491400008,
+                    "priceImpact": 4.962949202129485,
+                    "success": true
+                }
+            ],
+            "averageProfitPercent": 4.730441148800005,
+            "maxProfitPercent": 4.7874849799999994,
+            "averagePriceImpact": 2.020084229207068,
+            "successRate": 100,
+            "score": 163.19604973938948
+        },
+        {
+            "midpoint": 110000000,
+            "midpointFactor": 100000000,
+            "ampCoeff": 500,
+            "reversed": true,
+            "arbAttempts": [
+                {
+                    "size": "Small",
+                    "profitPercent": 4.787458839999999,
+                    "priceImpact": 0.09979999989999655,
+                    "success": true
+                },
+                {
+                    "size": "Medium",
+                    "profitPercent": 4.762230760000002,
+                    "priceImpact": 0.9975034793710915,
+                    "success": true
+                },
+                {
+                    "size": "Large",
+                    "profitPercent": 4.639513872400014,
+                    "priceImpact": 4.962948953932864,
+                    "success": true
+                }
+            ],
+            "averageProfitPercent": 4.729734490800005,
+            "maxProfitPercent": 4.787458839999999,
+            "averagePriceImpact": 2.0200841444013173,
+            "successRate": 100,
+            "score": 163.18615665459805
+        },
+        {
+            "midpoint": 110000000,
+            "midpointFactor": 100000000,
+            "ampCoeff": 100,
+            "reversed": true,
+            "arbAttempts": [
+                {
+                    "size": "Small",
+                    "profitPercent": 4.787251990000004,
+                    "priceImpact": 0.09979999959999208,
+                    "success": true
+                },
+                {
+                    "size": "Medium",
+                    "profitPercent": 4.759771218999995,
+                    "priceImpact": 0.9975034312155547,
+                    "success": true
+                },
+                {
+                    "size": "Large",
+                    "profitPercent": 4.625372187200003,
+                    "priceImpact": 4.962946985855039,
+                    "success": true
+                }
+            ],
+            "averageProfitPercent": 4.724131798733334,
+            "maxProfitPercent": 4.787251990000004,
+            "averagePriceImpact": 2.020083472223529,
+            "successRate": 100,
+            "score": 163.10771997393138
+        },
+        {
+            "midpoint": 110000000,
+            "midpointFactor": 100000000,
+            "ampCoeff": 50,
+            "reversed": true,
+            "arbAttempts": [
+                {
+                    "size": "Small",
+                    "profitPercent": 4.786998110000013,
+                    "priceImpact": 0.09979999909999204,
+                    "success": true
+                },
+                {
+                    "size": "Medium",
+                    "profitPercent": 4.756751083000017,
+                    "priceImpact": 0.9975033721430098,
+                    "success": true
+                },
+                {
+                    "size": "Large",
+                    "profitPercent": 4.608007329200001,
+                    "priceImpact": 4.962944569201875,
+                    "success": true
+                }
+            ],
+            "averageProfitPercent": 4.717252174066677,
+            "maxProfitPercent": 4.786998110000013,
+            "averagePriceImpact": 2.020082646814959,
+            "successRate": 100,
+            "score": 163.01140646671104
+        },
+        {
+            "midpoint": 110000000,
+            "midpointFactor": 100000000,
+            "ampCoeff": 10,
+            "reversed": true,
+            "arbAttempts": [
+                {
+                    "size": "Small",
+                    "profitPercent": 4.7851318800000175,
+                    "priceImpact": 0.09979999550000507,
+                    "success": true
+                },
+                {
+                    "size": "Medium",
+                    "profitPercent": 4.734566679000018,
+                    "priceImpact": 0.9975029378267756,
+                    "success": true
+                },
+                {
+                    "size": "Large",
+                    "profitPercent": 4.480463987199998,
+                    "priceImpact": 4.962926819232717,
+                    "success": true
+                }
+            ],
+            "averageProfitPercent": 4.666720848733345,
+            "maxProfitPercent": 4.7851318800000175,
+            "averagePriceImpact": 2.020076584186499,
+            "successRate": 100,
+            "score": 162.30397700598706
+        },
+        {
+            "midpoint": 110000000,
+            "midpointFactor": 100000000,
+            "ampCoeff": 1,
+            "reversed": true,
+            "arbAttempts": [
+                {
+                    "size": "Small",
+                    "profitPercent": 4.774425710000014,
+                    "priceImpact": 0.09979997509999006,
+                    "success": true
+                },
+                {
+                    "size": "Medium",
+                    "profitPercent": 4.607285420000007,
+                    "priceImpact": 0.9975004459915776,
+                    "success": true
+                },
+                {
+                    "size": "Large",
+                    "profitPercent": 3.7488875102000017,
+                    "priceImpact": 4.962825012549462,
+                    "success": true
+                }
+            ],
+            "averageProfitPercent": 4.376866213400008,
+            "maxProfitPercent": 4.774425710000014,
+            "averagePriceImpact": 2.0200418112136767,
+            "successRate": 100,
+            "score": 158.24606427077958
+        },
+        {
+            "midpoint": 110000000,
+            "midpointFactor": 100000000,
+            "ampCoeff": 1,
+            "reversed": false,
+            "arbAttempts": [
+                {
+                    "size": "Small",
+                    "profitPercent": -99.99989269,
+                    "priceImpact": 0,
+                    "success": true
+                },
+                {
+                    "size": "Medium",
+                    "profitPercent": -99.999989269,
+                    "priceImpact": 0,
+                    "success": true
+                },
+                {
+                    "size": "Large",
+                    "profitPercent": -99.99999785380001,
+                    "priceImpact": 0,
+                    "success": true
+                }
+            ],
+            "averageProfitPercent": -99.99995993760001,
+            "maxProfitPercent": 0,
+            "averagePriceImpact": 0,
+            "successRate": 100,
+            "score": 0
+        },
+        {
+            "midpoint": 110000000,
+            "midpointFactor": 100000000,
+            "ampCoeff": 10,
+            "reversed": false,
+            "arbAttempts": [
+                {
+                    "size": "Small",
+                    "profitPercent": -99.99989269,
+                    "priceImpact": 0,
+                    "success": true
+                },
+                {
+                    "size": "Medium",
+                    "profitPercent": -99.999989269,
+                    "priceImpact": 0,
+                    "success": true
+                },
+                {
+                    "size": "Large",
+                    "profitPercent": -99.99999785380001,
+                    "priceImpact": 0,
+                    "success": true
+                }
+            ],
+            "averageProfitPercent": -99.99995993760001,
+            "maxProfitPercent": 0,
+            "averagePriceImpact": 0,
+            "successRate": 100,
+            "score": 0
+        },
+        {
+            "midpoint": 110000000,
+            "midpointFactor": 100000000,
+            "ampCoeff": 50,
+            "reversed": false,
+            "arbAttempts": [
+                {
+                    "size": "Small",
+                    "profitPercent": -99.99989269,
+                    "priceImpact": 0,
+                    "success": true
+                },
+                {
+                    "size": "Medium",
+                    "profitPercent": -99.999989269,
+                    "priceImpact": 0,
+                    "success": true
+                },
+                {
+                    "size": "Large",
+                    "profitPercent": -99.99999785380001,
+                    "priceImpact": 0,
+                    "success": true
+                }
+            ],
+            "averageProfitPercent": -99.99995993760001,
+            "maxProfitPercent": 0,
+            "averagePriceImpact": 0,
+            "successRate": 100,
+            "score": 0
+        },
+        {
+            "midpoint": 110000000,
+            "midpointFactor": 100000000,
+            "ampCoeff": 100,
+            "reversed": false,
+            "arbAttempts": [
+                {
+                    "size": "Small",
+                    "profitPercent": -99.99989269,
+                    "priceImpact": 0,
+                    "success": true
+                },
+                {
+                    "size": "Medium",
+                    "profitPercent": -99.999989269,
+                    "priceImpact": 0,
+                    "success": true
+                },
+                {
+                    "size": "Large",
+                    "profitPercent": -99.99999785380001,
+                    "priceImpact": 0,
+                    "success": true
+                }
+            ],
+            "averageProfitPercent": -99.99995993760001,
+            "maxProfitPercent": 0,
+            "averagePriceImpact": 0,
+            "successRate": 100,
+            "score": 0
+        }
+    ],
+    "allResults": [
+        {
+            "midpoint": 110000000,
+            "midpointFactor": 100000000,
+            "ampCoeff": 1000,
+            "reversed": true,
+            "arbAttempts": [
+                {
+                    "size": "Small",
+                    "profitPercent": 4.7874849799999994,
+                    "priceImpact": 0.09980000000000544,
+                    "success": true,
+                    "formattedProfit": "4.7875%",
+                    "formattedPriceImpact": "0.0998%"
+                },
+                {
+                    "size": "Medium",
+                    "profitPercent": 4.762540975000011,
+                    "priceImpact": 0.9975034854917141,
+                    "success": true,
+                    "formattedProfit": "4.7625%",
+                    "formattedPriceImpact": "0.9975%"
+                },
+                {
+                    "size": "Large",
+                    "profitPercent": 4.641297491400008,
+                    "priceImpact": 4.962949202129485,
+                    "success": true,
+                    "formattedProfit": "4.6413%",
+                    "formattedPriceImpact": "4.9629%"
+                }
+            ],
+            "averageProfitPercent": 4.730441148800005,
+            "maxProfitPercent": 4.7874849799999994,
+            "averagePriceImpact": 2.020084229207068,
+            "successRate": 100,
+            "score": 163.19604973938948
+        },
+        {
+            "midpoint": 110000000,
+            "midpointFactor": 100000000,
+            "ampCoeff": 500,
+            "reversed": true,
+            "arbAttempts": [
+                {
+                    "size": "Small",
+                    "profitPercent": 4.787458839999999,
+                    "priceImpact": 0.09979999989999655,
+                    "success": true,
+                    "formattedProfit": "4.7875%",
+                    "formattedPriceImpact": "0.0998%"
+                },
+                {
+                    "size": "Medium",
+                    "profitPercent": 4.762230760000002,
+                    "priceImpact": 0.9975034793710915,
+                    "success": true,
+                    "formattedProfit": "4.7622%",
+                    "formattedPriceImpact": "0.9975%"
+                },
+                {
+                    "size": "Large",
+                    "profitPercent": 4.639513872400014,
+                    "priceImpact": 4.962948953932864,
+                    "success": true,
+                    "formattedProfit": "4.6395%",
+                    "formattedPriceImpact": "4.9629%"
+                }
+            ],
+            "averageProfitPercent": 4.729734490800005,
+            "maxProfitPercent": 4.787458839999999,
+            "averagePriceImpact": 2.0200841444013173,
+            "successRate": 100,
+            "score": 163.18615665459805
+        },
+        {
+            "midpoint": 110000000,
+            "midpointFactor": 100000000,
+            "ampCoeff": 100,
+            "reversed": true,
+            "arbAttempts": [
+                {
+                    "size": "Small",
+                    "profitPercent": 4.787251990000004,
+                    "priceImpact": 0.09979999959999208,
+                    "success": true,
+                    "formattedProfit": "4.7873%",
+                    "formattedPriceImpact": "0.0998%"
+                },
+                {
+                    "size": "Medium",
+                    "profitPercent": 4.759771218999995,
+                    "priceImpact": 0.9975034312155547,
+                    "success": true,
+                    "formattedProfit": "4.7598%",
+                    "formattedPriceImpact": "0.9975%"
+                },
+                {
+                    "size": "Large",
+                    "profitPercent": 4.625372187200003,
+                    "priceImpact": 4.962946985855039,
+                    "success": true,
+                    "formattedProfit": "4.6254%",
+                    "formattedPriceImpact": "4.9629%"
+                }
+            ],
+            "averageProfitPercent": 4.724131798733334,
+            "maxProfitPercent": 4.787251990000004,
+            "averagePriceImpact": 2.020083472223529,
+            "successRate": 100,
+            "score": 163.10771997393138
+        },
+        {
+            "midpoint": 110000000,
+            "midpointFactor": 100000000,
+            "ampCoeff": 50,
+            "reversed": true,
+            "arbAttempts": [
+                {
+                    "size": "Small",
+                    "profitPercent": 4.786998110000013,
+                    "priceImpact": 0.09979999909999204,
+                    "success": true,
+                    "formattedProfit": "4.7870%",
+                    "formattedPriceImpact": "0.0998%"
+                },
+                {
+                    "size": "Medium",
+                    "profitPercent": 4.756751083000017,
+                    "priceImpact": 0.9975033721430098,
+                    "success": true,
+                    "formattedProfit": "4.7568%",
+                    "formattedPriceImpact": "0.9975%"
+                },
+                {
+                    "size": "Large",
+                    "profitPercent": 4.608007329200001,
+                    "priceImpact": 4.962944569201875,
+                    "success": true,
+                    "formattedProfit": "4.6080%",
+                    "formattedPriceImpact": "4.9629%"
+                }
+            ],
+            "averageProfitPercent": 4.717252174066677,
+            "maxProfitPercent": 4.786998110000013,
+            "averagePriceImpact": 2.020082646814959,
+            "successRate": 100,
+            "score": 163.01140646671104
+        },
+        {
+            "midpoint": 110000000,
+            "midpointFactor": 100000000,
+            "ampCoeff": 10,
+            "reversed": true,
+            "arbAttempts": [
+                {
+                    "size": "Small",
+                    "profitPercent": 4.7851318800000175,
+                    "priceImpact": 0.09979999550000507,
+                    "success": true,
+                    "formattedProfit": "4.7851%",
+                    "formattedPriceImpact": "0.0998%"
+                },
+                {
+                    "size": "Medium",
+                    "profitPercent": 4.734566679000018,
+                    "priceImpact": 0.9975029378267756,
+                    "success": true,
+                    "formattedProfit": "4.7346%",
+                    "formattedPriceImpact": "0.9975%"
+                },
+                {
+                    "size": "Large",
+                    "profitPercent": 4.480463987199998,
+                    "priceImpact": 4.962926819232717,
+                    "success": true,
+                    "formattedProfit": "4.4805%",
+                    "formattedPriceImpact": "4.9629%"
+                }
+            ],
+            "averageProfitPercent": 4.666720848733345,
+            "maxProfitPercent": 4.7851318800000175,
+            "averagePriceImpact": 2.020076584186499,
+            "successRate": 100,
+            "score": 162.30397700598706
+        },
+        {
+            "midpoint": 110000000,
+            "midpointFactor": 100000000,
+            "ampCoeff": 1,
+            "reversed": true,
+            "arbAttempts": [
+                {
+                    "size": "Small",
+                    "profitPercent": 4.774425710000014,
+                    "priceImpact": 0.09979997509999006,
+                    "success": true,
+                    "formattedProfit": "4.7744%",
+                    "formattedPriceImpact": "0.0998%"
+                },
+                {
+                    "size": "Medium",
+                    "profitPercent": 4.607285420000007,
+                    "priceImpact": 0.9975004459915776,
+                    "success": true,
+                    "formattedProfit": "4.6073%",
+                    "formattedPriceImpact": "0.9975%"
+                },
+                {
+                    "size": "Large",
+                    "profitPercent": 3.7488875102000017,
+                    "priceImpact": 4.962825012549462,
+                    "success": true,
+                    "formattedProfit": "3.7489%",
+                    "formattedPriceImpact": "4.9628%"
+                }
+            ],
+            "averageProfitPercent": 4.376866213400008,
+            "maxProfitPercent": 4.774425710000014,
+            "averagePriceImpact": 2.0200418112136767,
+            "successRate": 100,
+            "score": 158.24606427077958
+        },
+        {
+            "midpoint": 110000000,
+            "midpointFactor": 100000000,
+            "ampCoeff": 1,
+            "reversed": false,
+            "arbAttempts": [
+                {
+                    "size": "Small",
+                    "profitPercent": -99.99989269,
+                    "priceImpact": 0,
+                    "success": true,
+                    "formattedProfit": "-99.9999%",
+                    "formattedPriceImpact": "0.0000%"
+                },
+                {
+                    "size": "Medium",
+                    "profitPercent": -99.999989269,
+                    "priceImpact": 0,
+                    "success": true,
+                    "formattedProfit": "-100.0000%",
+                    "formattedPriceImpact": "0.0000%"
+                },
+                {
+                    "size": "Large",
+                    "profitPercent": -99.99999785380001,
+                    "priceImpact": 0,
+                    "success": true,
+                    "formattedProfit": "-100.0000%",
+                    "formattedPriceImpact": "0.0000%"
+                }
+            ],
+            "averageProfitPercent": -99.99995993760001,
+            "maxProfitPercent": 0,
+            "averagePriceImpact": 0,
+            "successRate": 100,
+            "score": 0
+        },
+        {
+            "midpoint": 110000000,
+            "midpointFactor": 100000000,
+            "ampCoeff": 10,
+            "reversed": false,
+            "arbAttempts": [
+                {
+                    "size": "Small",
+                    "profitPercent": -99.99989269,
+                    "priceImpact": 0,
+                    "success": true,
+                    "formattedProfit": "-99.9999%",
+                    "formattedPriceImpact": "0.0000%"
+                },
+                {
+                    "size": "Medium",
+                    "profitPercent": -99.999989269,
+                    "priceImpact": 0,
+                    "success": true,
+                    "formattedProfit": "-100.0000%",
+                    "formattedPriceImpact": "0.0000%"
+                },
+                {
+                    "size": "Large",
+                    "profitPercent": -99.99999785380001,
+                    "priceImpact": 0,
+                    "success": true,
+                    "formattedProfit": "-100.0000%",
+                    "formattedPriceImpact": "0.0000%"
+                }
+            ],
+            "averageProfitPercent": -99.99995993760001,
+            "maxProfitPercent": 0,
+            "averagePriceImpact": 0,
+            "successRate": 100,
+            "score": 0
+        },
+        {
+            "midpoint": 110000000,
+            "midpointFactor": 100000000,
+            "ampCoeff": 50,
+            "reversed": false,
+            "arbAttempts": [
+                {
+                    "size": "Small",
+                    "profitPercent": -99.99989269,
+                    "priceImpact": 0,
+                    "success": true,
+                    "formattedProfit": "-99.9999%",
+                    "formattedPriceImpact": "0.0000%"
+                },
+                {
+                    "size": "Medium",
+                    "profitPercent": -99.999989269,
+                    "priceImpact": 0,
+                    "success": true,
+                    "formattedProfit": "-100.0000%",
+                    "formattedPriceImpact": "0.0000%"
+                },
+                {
+                    "size": "Large",
+                    "profitPercent": -99.99999785380001,
+                    "priceImpact": 0,
+                    "success": true,
+                    "formattedProfit": "-100.0000%",
+                    "formattedPriceImpact": "0.0000%"
+                }
+            ],
+            "averageProfitPercent": -99.99995993760001,
+            "maxProfitPercent": 0,
+            "averagePriceImpact": 0,
+            "successRate": 100,
+            "score": 0
+        },
+        {
+            "midpoint": 110000000,
+            "midpointFactor": 100000000,
+            "ampCoeff": 100,
+            "reversed": false,
+            "arbAttempts": [
+                {
+                    "size": "Small",
+                    "profitPercent": -99.99989269,
+                    "priceImpact": 0,
+                    "success": true,
+                    "formattedProfit": "-99.9999%",
+                    "formattedPriceImpact": "0.0000%"
+                },
+                {
+                    "size": "Medium",
+                    "profitPercent": -99.999989269,
+                    "priceImpact": 0,
+                    "success": true,
+                    "formattedProfit": "-100.0000%",
+                    "formattedPriceImpact": "0.0000%"
+                },
+                {
+                    "size": "Large",
+                    "profitPercent": -99.99999785380001,
+                    "priceImpact": 0,
+                    "success": true,
+                    "formattedProfit": "-100.0000%",
+                    "formattedPriceImpact": "0.0000%"
+                }
+            ],
+            "averageProfitPercent": -99.99995993760001,
+            "maxProfitPercent": 0,
+            "averagePriceImpact": 0,
+            "successRate": 100,
+            "score": 0
+        },
+        {
+            "midpoint": 110000000,
+            "midpointFactor": 100000000,
+            "ampCoeff": 500,
+            "reversed": false,
+            "arbAttempts": [
+                {
+                    "size": "Small",
+                    "profitPercent": -99.99989269,
+                    "priceImpact": 0,
+                    "success": true,
+                    "formattedProfit": "-99.9999%",
+                    "formattedPriceImpact": "0.0000%"
+                },
+                {
+                    "size": "Medium",
+                    "profitPercent": -99.999989269,
+                    "priceImpact": 0,
+                    "success": true,
+                    "formattedProfit": "-100.0000%",
+                    "formattedPriceImpact": "0.0000%"
+                },
+                {
+                    "size": "Large",
+                    "profitPercent": -99.99999785380001,
+                    "priceImpact": 0,
+                    "success": true,
+                    "formattedProfit": "-100.0000%",
+                    "formattedPriceImpact": "0.0000%"
+                }
+            ],
+            "averageProfitPercent": -99.99995993760001,
+            "maxProfitPercent": 0,
+            "averagePriceImpact": 0,
+            "successRate": 100,
+            "score": 0
+        },
+        {
+            "midpoint": 110000000,
+            "midpointFactor": 100000000,
+            "ampCoeff": 1000,
+            "reversed": false,
+            "arbAttempts": [
+                {
+                    "size": "Small",
+                    "profitPercent": -99.99989269,
+                    "priceImpact": 0,
+                    "success": true,
+                    "formattedProfit": "-99.9999%",
+                    "formattedPriceImpact": "0.0000%"
+                },
+                {
+                    "size": "Medium",
+                    "profitPercent": -99.999989269,
+                    "priceImpact": 0,
+                    "success": true,
+                    "formattedProfit": "-100.0000%",
+                    "formattedPriceImpact": "0.0000%"
+                },
+                {
+                    "size": "Large",
+                    "profitPercent": -99.99999785380001,
+                    "priceImpact": 0,
+                    "success": true,
+                    "formattedProfit": "-100.0000%",
+                    "formattedPriceImpact": "0.0000%"
+                }
+            ],
+            "averageProfitPercent": -99.99995993760001,
+            "maxProfitPercent": 0,
+            "averagePriceImpact": 0,
+            "successRate": 100,
+            "score": 0
+        }
+    ],
+    "summary": {
+        "bestConfiguration": {
+            "midpoint": 110000000,
+            "midpointFactor": 100000000,
+            "ampCoeff": 1000,
+            "reversed": true,
+            "arbAttempts": [
+                {
+                    "size": "Small",
+                    "profitPercent": 4.7874849799999994,
+                    "priceImpact": 0.09980000000000544,
+                    "success": true
+                },
+                {
+                    "size": "Medium",
+                    "profitPercent": 4.762540975000011,
+                    "priceImpact": 0.9975034854917141,
+                    "success": true
+                },
+                {
+                    "size": "Large",
+                    "profitPercent": 4.641297491400008,
+                    "priceImpact": 4.962949202129485,
+                    "success": true
+                }
+            ],
+            "averageProfitPercent": 4.730441148800005,
+            "maxProfitPercent": 4.7874849799999994,
+            "averagePriceImpact": 2.020084229207068,
+            "successRate": 100,
+            "score": 163.19604973938948,
+            "description": "Midpoint: 110000000, Factor: 100000000, Amp: 1000, Reversed: true"
+        },
+        "recommendations": [
+            {
+                "category": "Most Stable",
+                "config": {
+                    "midpoint": 110000000,
+                    "midpointFactor": 100000000,
+                    "ampCoeff": 1000,
+                    "reversed": false,
+                    "arbAttempts": [
+                        {
+                            "size": "Small",
+                            "profitPercent": -99.99989269,
+                            "priceImpact": 0,
+                            "success": true
+                        },
+                        {
+                            "size": "Medium",
+                            "profitPercent": -99.999989269,
+                            "priceImpact": 0,
+                            "success": true
+                        },
+                        {
+                            "size": "Large",
+                            "profitPercent": -99.99999785380001,
+                            "priceImpact": 0,
+                            "success": true
+                        }
+                    ],
+                    "averageProfitPercent": -99.99995993760001,
+                    "maxProfitPercent": 0,
+                    "averagePriceImpact": 0,
+                    "successRate": 100,
+                    "score": 0
+                },
+                "reason": "Lowest price impact across all tests"
+            },
+            {
+                "category": "Most Profitable for Pool",
+                "config": {
+                    "midpoint": 110000000,
+                    "midpointFactor": 100000000,
+                    "ampCoeff": 1000,
+                    "reversed": true,
+                    "arbAttempts": [
+                        {
+                            "size": "Small",
+                            "profitPercent": 4.7874849799999994,
+                            "priceImpact": 0.09980000000000544,
+                            "success": true
+                        },
+                        {
+                            "size": "Medium",
+                            "profitPercent": 4.762540975000011,
+                            "priceImpact": 0.9975034854917141,
+                            "success": true
+                        },
+                        {
+                            "size": "Large",
+                            "profitPercent": 4.641297491400008,
+                            "priceImpact": 4.962949202129485,
+                            "success": true
+                        }
+                    ],
+                    "averageProfitPercent": 4.730441148800005,
+                    "maxProfitPercent": 4.7874849799999994,
+                    "averagePriceImpact": 2.020084229207068,
+                    "successRate": 100,
+                    "score": 163.19604973938948
+                },
+                "reason": "Highest profit for the pool from arbitrage activities"
+            },
+            {
+                "category": "Most Reliable",
+                "config": {
+                    "midpoint": 110000000,
+                    "midpointFactor": 100000000,
+                    "ampCoeff": 1000,
+                    "reversed": false,
+                    "arbAttempts": [
+                        {
+                            "size": "Small",
+                            "profitPercent": -99.99989269,
+                            "priceImpact": 0,
+                            "success": true
+                        },
+                        {
+                            "size": "Medium",
+                            "profitPercent": -99.999989269,
+                            "priceImpact": 0,
+                            "success": true
+                        },
+                        {
+                            "size": "Large",
+                            "profitPercent": -99.99999785380001,
+                            "priceImpact": 0,
+                            "success": true
+                        }
+                    ],
+                    "averageProfitPercent": -99.99995993760001,
+                    "maxProfitPercent": 0,
+                    "averagePriceImpact": 0,
+                    "successRate": 100,
+                    "score": 0
+                },
+                "reason": "Highest success rate across all test cases"
+            }
+        ]
+    }
+}
